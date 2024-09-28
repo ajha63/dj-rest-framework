@@ -62,11 +62,19 @@
 }
 
 {
-    "filename": "gooddoctorcastdatates.json",
-    "source": "The Good Doctor casting",
+    "filename": "drhousecastdatates.json",
+    "source": "Dr House casting",
     "desciption": "Json data test to django-rest-framework course",
     "datamodelname": "Department",
     "departmentdata": [
+        {
+            "name": "DRAD",
+            "description": "Diagnostic Radiology"
+        },
+        {
+            "name": "MONC",
+            "description": "Medical Oncology"
+        },
         {
             "name": "ED",
             "description": "Emergency Department"
@@ -90,7 +98,42 @@
         {
             "name": "PICU",
             "description": "Pediatric Critical Care"
+        }
+    ]
+}
+
+{
+    "filename": "drhousecastdatates.json",
+    "source": "Dr House casting",
+    "desciption": "Json data test to django-rest-framework course",
+    "datamodelname": "Patients",
+    "patientsdata": [
+        {
+            "first_name": "Renato",
+            "last_name": "Rincon",
+            "date_of_birth": "1999-07-18",
+            "contact_number": "201 45457689",
+            "email": "renato.rincon@someexample.com",
+            "address": "Some where in Bergen, New Jersey",
+            "medical_history": "a pathological case of drinking"
         },
-        
+        {
+            "first_name": "Arthur",
+            "last_name": "Fleck",
+            "date_of_birth": "1970-03-14",
+            "contact_number": "201 39457628",
+            "email": "@someexample.com",
+            "address": "Some where in Essex, New Jersey",
+            "medical_history": "flatfoot pathologyg and dementia"
+        },
+        {
+            "first_name": "Mary",
+            "last_name": "Warren",
+            "date_of_birth": "1997-11-18",
+            "contact_number": "201 99457652",
+            "email": "mary.warren@someexample.com",
+            "address": "Some where in Salem, New Jersey",
+            "medical_history": "Forty-year union"
+        }
     ]
 }
