@@ -1,0 +1,87 @@
+{
+    "filename": "gooddoctorcastdatates.json",
+    "source": "The Good Doctor casting",
+    "desciption": "Json data test to django-rest-framework course",
+    "datamodelname": "Doctor",
+    "doctordata": [
+        {
+            "first_name": "Shaun",
+            "last_name": "Murphy",
+            "qualification": "Attending Surgeon Physician",
+            "contact_number": "604 20214556",
+            "email": "shaun.murphy@bonaventure.care",
+            "address": "Some place on British Columbia, Canada",
+            "biography": "He is a real good Doctor"
+        },
+        {
+            "first_name": "Aaron",
+            "last_name": "Glassman",
+            "qualification": "Pediatric Surgeon Physician",
+            "contact_number": "604 32224446",
+            "email": "aaron.glassman@bonaventure.care",
+            "address": "Some place on British Columbia, Canada",
+            "biography": "He is a good Doctor mentor"
+        },
+        {
+            "first_name": "Jordan",
+            "last_name": "Allen",
+            "qualification": "Surgical resident",
+            "contact_number": "604 32334526",
+            "email": "jordan.allen@bonaventure.care",
+            "address": "Some place on British Columbia, Canada",
+            "biography": "She is a good girl"
+        },
+        {
+            "first_name": "Alex",
+            "last_name": "Park",
+            "qualification": "General Surgeon Physician",
+            "contact_number": "604 32344776",
+            "email": "alex.park@bonaventure.care",
+            "address": "Some place on British Columbia, Canada",
+            "biography": "He is a good Doctor colleague"
+        },
+        {
+            "first_name": "Morgan",
+            "last_name": "Reznick",
+            "qualification": "Internist Resident",
+            "contact_number": "604 32344776",
+            "email": "morgan.reznick@bonaventure.care",
+            "address": "Some place on British Columbia, Canada",
+            "biography": "He is a hard girl"
+        }
+    ]
+}
+
+{
+    "filename": "gooddoctorcastdatates.json",
+    "source": "The Good Doctor casting",
+    "desciption": "Json data test to django-rest-framework course",
+    "datamodelname": "Department",
+    "departmentdata": [
+        {
+            "name": "ED",
+            "description": "Emergency Department"
+        },
+        {
+            "name": "Neurology",
+            "description": "Neurology Department"
+        },
+        {
+            "name": "Surgery",
+            "description": "Surgery Department"
+        },
+        {
+            "name": "ICU",
+            "description": "Intensive Care Unit"
+        },
+        {
+            "name": "OB/GYN",
+            "description": "Obstetrics and Gynecology"
+        },
+        {
+            "name": "PICU",
+            "description": "Pediatric Critical Care"
+        },
+        
+    ]
+}

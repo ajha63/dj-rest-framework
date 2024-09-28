@@ -1,0 +1,96 @@
+{
+    "filename": "drhousecastdatates.json",
+    "source": "DR House",
+    "desciption": "Json data test to django-rest-framework course",
+    "datamodelname": "Doctor",
+    "doctordata": [
+        {
+            "first_name": "Gregory",
+            "last_name": "House",
+            "qualification": "Diagnostician & specialty of Infectious Disease and Nephrology ",
+            "contact_number": "609 20214556",
+            "email": "gregory.house@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "He is an honest and ruthless doctor"
+        },
+        {
+            "first_name": "James",
+            "last_name": "Wilson",
+            "qualification": "Head of Oncology",
+            "contact_number": "609 32224446",
+            "email": "james.wilson@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "He is a good friend's Doctor"
+        },
+        {
+            "first_name": "Eric",
+            "last_name": "Foreman",
+            "qualification": "Dean of Medicine",
+            "contact_number": "609 32544523",
+            "email": "jordan.allen@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "He is the House's antagonist"
+        },
+        {
+            "first_name": "Allison",
+            "last_name": "Cameron",
+            "qualification": "Immunologist",
+            "contact_number": "609 28344566",
+            "email": "allison.cameron@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "She is a beautiful doctor"
+        },
+        {
+            "first_name": "Robert",
+            "last_name": "Chase",
+            "qualification": "Intensive care specialist",
+            "contact_number": "609 90344751",
+            "email": "robert.chase@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "He is the handsome guy of the series"
+        },
+        {
+            "first_name": "Amber",
+            "last_name": "Volakis",
+            "qualification": "Internist and radiologist",
+            "contact_number": "609 26344742",
+            "email": "amber.volakis@plainsboroteaching.care",
+            "address": "Some place on Princeton, New Jersey",
+            "biography": "She is a Cutthroat Bitch"
+        }
+    ]
+}
+
+{
+    "filename": "gooddoctorcastdatates.json",
+    "source": "The Good Doctor casting",
+    "desciption": "Json data test to django-rest-framework course",
+    "datamodelname": "Department",
+    "departmentdata": [
+        {
+            "name": "ED",
+            "description": "Emergency Department"
+        },
+        {
+            "name": "Neurology",
+            "description": "Neurology Department"
+        },
+        {
+            "name": "Surgery",
+            "description": "Surgery Department"
+        },
+        {
+            "name": "ICU",
+            "description": "Intensive Care Unit"
+        },
+        {
+            "name": "OB/GYN",
+            "description": "Obstetrics and Gynecology"
+        },
+        {
+            "name": "PICU",
+            "description": "Pediatric Critical Care"
+        },
+        
+    ]
+}
