@@ -134,6 +134,24 @@
             "email": "mary.warren@someexample.com",
             "address": "Some where in Salem, New Jersey",
             "medical_history": "Forty-year union"
+        },
+        {
+            "first_name": "Jack",
+            "last_name": "Moriarty",
+            "date_of_birth": "1974-11-18",
+            "contact_number": "201 664576762",
+            "email": "jack.moriarty@someexample.com",
+            "address": "Some where in Bergen, New Jersey",
+            "medical_history": "Depression"
+        },
+        {
+            "first_name": "George",
+            "last_name": "Chuck",
+            "date_of_birth": "1981-11-18",
+            "contact_number": "201 664576762",
+            "email": "jack.moriarty@someexample.com",
+            "address": "Some where in Essex, New Jersey",
+            "medical_history": "Chubby George"
         }
     ]
 }
