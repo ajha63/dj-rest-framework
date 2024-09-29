@@ -2,6 +2,7 @@ from .serializers import PatientSerializer
 from .models import Patient
 from rest_framework.decorators import api_view 
 from rest_framework.response import Response
+from rest_framework import status
 
 # GET  /api/patients > Listar
 # POST /api/patients > Crear/Agregar

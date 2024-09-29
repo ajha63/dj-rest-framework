@@ -152,6 +152,15 @@
             "email": "jack.moriarty@someexample.com",
             "address": "Some where in Essex, New Jersey",
             "medical_history": "Chubby George"
+        },
+        {
+            "first_name": "Patrick",
+            "last_name": "Obyedkov",
+            "date_of_birth": "1968-07-20",
+            "contact_number": "201 79776762",
+            "email": "patrick.obyedkov@someexample.com",
+            "address": "Some where in Salem, New Jersey",
+            "medical_history": "Savant syndrome"
         }
     ]
 }
