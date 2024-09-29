@@ -3,6 +3,9 @@ from .models import Patient
 from rest_framework.decorators import api_view 
 from rest_framework.response import Response
 
+# GET  /api/patients > Listar
+# POST /api/patients > Crear/Agregar
+
 @api_view(['GET', 'POST'])
 def list_patients(request):
     if request.method == 'GET':
