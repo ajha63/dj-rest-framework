@@ -5,11 +5,11 @@ from rest_framework.response import Response
 from rest_framework import status
 
 
-# GET  /api/patients > List
-# POST /api/patients > Create/Add
-# GET  /api/patients/pk/ > one patient details
-# POST /api/patients/pk/ > one patient modify
-# DELETE /api/patients/pk/ > one patient modify
+# GET  /api/doctors > List
+# POST /api/doctors > Create/Add
+# GET  /api/doctors/pk/ > one patient details
+# POST /api/doctors/pk/ > one patient modify
+# DELETE /api/doctors/pk/ > one patient modify
 
 @api_view(['GET', 'POST'])
 def list_doctors(request):
