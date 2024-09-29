@@ -4,8 +4,12 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-# GET  /api/patients > Listar
-# POST /api/patients > Crear/Agregar
+# GET  /api/patients > List
+# POST /api/patients > Create/Add
+# GET  /api/patients/pk/ > one patient details
+# POST /api/patients/pk/ > one patient modify
+# DELETE /api/patients/pk/ > one patient modify
+
 
 @api_view(['GET', 'POST'])
 def list_patients(request):
