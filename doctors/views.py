@@ -27,18 +27,34 @@ from .serializers import (
     
 
 class ListDoctorView(ListAPIView, CreateAPIView):
+    """
+    with the GET method displays a list of all doctors, 
+    with the POST method creates a new doctor.
+    """
+
     allowed_methods = ['GET', 'POST']
     serializer_class = DoctorSerializer
     queryset = Doctor.objects.all()
 
 
 class DetailDoctorView(RetrieveUpdateDestroyAPIView):
+    """
+    with the GET method displays the details of a doctor, 
+    with the PUT method modifies the data of a doctor,
+    with the DELETE method deletes a doctor's record.
+    """
+
     allowed_methods = ['GET', 'PUT', 'DELETE']
     serializer_class = DoctorSerializer
     queryset = Doctor.objects.all()
 
 
 class ListDepartmentView(ListAPIView, CreateAPIView):
+    """
+    with the GET method displays a list of Departments, 
+    with the POST method creates a new department.
+    """
+
     allowed_methods = ['GET', 'POST']
     serializer_class = DepartmentSerializer
     queryset = Department.objects.all()
