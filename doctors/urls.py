@@ -13,11 +13,11 @@ from .views import (
 
 urlpatterns = [
     path('doctors/', ListDoctorView.as_view()),
-    path('doctors/<int:id>/', DetailDoctorView.as_view()),
+    path('doctors/<int:pk>/', DetailDoctorView.as_view()),
     path('departments/', ListDepartmentView.as_view()),
-    path('departments/<int:id>/', DetailDepartmentView.as_view()),
+    path('departments/<int:pk>/', DetailDepartmentView.as_view()),
     path('doctoravailabilities/', ListDoctorAvailabilityView.as_view()),
-    path('doctoravailabilities/<int:id>/', DetailDoctorAvailabilityView.as_view()),
+    path('doctoravailabilities/<int:pk>/', DetailDoctorAvailabilityView.as_view()),
     path('medicalnotes/', ListMedicalNoteView.as_view()),
-    path('medicalnotes/<int:id>/', DetailMedicalNoteView.as_view()),
+    path('medicalnotes/<int:pk>/', DetailMedicalNoteView.as_view()),
 ]
