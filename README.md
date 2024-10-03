@@ -1,7 +1,4 @@
-# [Django REST framework](https://www.django-rest-framework.org/)
-[![build-status-image]][build-status]
-[![coverage-status-image]][codecov]
-[![pypi-version]][pypi]
+# [Django REST framework][def]
 
 > A project to learn about API Rest with Django-rest-framework from [Platzi course](https://platzi.com/cursos/django-rest-framework/)
 
@@ -29,3 +26,6 @@ Some reasons you might want to use REST framework:
 # Environments and settings
 
 # API documents with Swagger
+
+
+[def]: https://www.django-rest-framework.org/
