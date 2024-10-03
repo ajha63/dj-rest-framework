@@ -29,4 +29,4 @@ Some reasons you might want to use REST framework:
 
 
 [def]: https://www.django-rest-framework.org/
-[image]: https://www.django-rest-framework.org/img/quickstart.png
+[image]: https://ajha.info/images/drf-api-document-image.png
