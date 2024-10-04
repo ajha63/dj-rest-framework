@@ -1,4 +1,4 @@
-# [Django REST framework][def]
+# [Django REST framework][DRF]
 
 [![build-status-image]][build-status]
 [![coverage-status-image]][codecov]
@@ -32,7 +32,7 @@ Some reasons you might want to use REST framework:
 # API documents with Swagger
 
 
-[def]: https://www.django-rest-framework.org/
+[DRF]: https://www.django-rest-framework.org/
 [image]: https://ajha.info/images/drf-api-document-image.png
 
 [build-status-image]: https://github.com/encode/django-rest-framework/actions/workflows/main.yml/badge.svg
