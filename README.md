@@ -1,5 +1,9 @@
 # [Django REST framework][def]
 
+[![build-status-image]][build-status]
+[![coverage-status-image]][codecov]
+[![pypi-version]][pypi]
+
 > A project to learn about API Rest with Django-rest-framework from [Platzi course](https://platzi.com/cursos/django-rest-framework/)
 
 # Overview
@@ -30,3 +34,12 @@ Some reasons you might want to use REST framework:
 
 [def]: https://www.django-rest-framework.org/
 [image]: https://ajha.info/images/drf-api-document-image.png
+
+[build-status-image]: https://github.com/encode/django-rest-framework/actions/workflows/main.yml/badge.svg
+[build-status]: https://github.com/encode/django-rest-framework/actions/workflows/main.yml
+
+[coverage-status-image]: https://img.shields.io/codecov/c/github/encode/django-rest-framework/master.svg
+[codecov]: https://codecov.io/github/encode/django-rest-framework?branch=master
+
+[pypi-version]: https://img.shields.io/pypi/v/djangorestframework.svg
+[pypi]: https://pypi.org/project/djangorestframework/
