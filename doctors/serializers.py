@@ -9,9 +9,9 @@ class DoctorSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def validate_email(self, value):
-        if "@example.com" in value:
+        if "@plainsboroteaching.care" in value:
             return value
-        raise serializers.ValidationError("El correo debe incluir @example.com")
+        raise serializers.ValidationError("Solo correos del dominio @plainsboroteaching.care son permitidos")
 
     def validate(self, attrs):
         if len(attrs['contact_number']) < 10 and attrs['is_on_vacation']:
