@@ -7,6 +7,18 @@ class DoctorSerializer(serializers.ModelSerializer):
         model = Doctor
         fields = '__all__'
 
+    def validate_email(self, value):
+        if "@plainsboroteaching.care" in value:
+            return value
+        raise serializers.ValidationError("Permitidos solo correos del dominio @plainsboroteaching.care")
+    
+    def validate(self, attrs):
+        if len(attrs['contact_number']) < 10 and attrs['is_on_vacation']:
+            raise serializers.ValidationError(
+                "Por favor, ingrese un número válido antes de irte a vacaciones"
+            )
+        return super().validate(attrs)
+
 
 class DepartmentSerializer(serializers.ModelSerializer):
     class Meta:
