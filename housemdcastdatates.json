@@ -23,9 +23,18 @@
             "biography": "He is a good friend's Doctor"
         },
         {
+            "first_name": "Lisa",
+            "last_name": "Cuddy",
+            "qualification": "Dean of Medicine, endocrinology",
+            "contact_number": "609 47224433",
+            "email": "lisa.cuddy@plainsboroteaching.care",
+            "address": "Some place on Hudson, New Jersey",
+            "biography": "SHe is the House's boss"
+        },
+        {
             "first_name": "Eric",
             "last_name": "Foreman",
-            "qualification": "Dean of Medicine",
+            "qualification": "Dean of Medicine, neurologist",
             "contact_number": "609 32544523",
             "email": "jordan.allen@plainsboroteaching.care",
             "address": "Some place on Princeton, New Jersey",
