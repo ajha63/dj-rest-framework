@@ -43,4 +43,4 @@ class DoctorViewSet(viewsets.ModelViewSet):
         if request.method == 'GET':
             appointments = Appointment.objects.filter(doctor=doctor)
             serializer = AppointmentSerializer(appointments, many=True)
-            return Response(serializer.data)
+            return Response(serializer.data, status=status.HTTP_200_OK)
