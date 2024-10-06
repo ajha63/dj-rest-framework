@@ -1,3 +1,4 @@
+from datetime import date
 from rest_framework import serializers
 
 from .models import Doctor, Department, DoctorAvailability, MedicalNote
@@ -28,9 +29,28 @@ class DepartmentSerializer(serializers.ModelSerializer):
 
 
 class DoctorAvailabilitySerializer(serializers.ModelSerializer):
+    experience = serializers.SerializerMethodField()
+
     class Meta:
         model = DoctorAvailability
-        fields = '__all__'
+        fields = [
+            'doctor',
+            'experience',
+            'start_date',
+            'end_date',
+            'start_time',
+            'end_time',
+        ]
+
+    def get_experience(self, obj):
+        """
+        Return the doctor experience in years
+        """
+
+        # get age in days (timedelta)
+        experience_timedelta = date.today() - obj.start_date
+        years = experience_timedelta.days // 365
+        return f"{years}"
 
 
 class MedicalNoteSerializer(serializers.ModelSerializer):
